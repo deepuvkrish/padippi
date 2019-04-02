@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="attributes/css/base.css">
     <!-- Fontawesome CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
      <!-- <link rel="stylesheet" type="text/css" href="attributes/css/bootstrap.min.css"> -->
@@ -18,8 +19,8 @@
         <link rel="stylesheet" type="text/css" href="attributes/css/custom.css">
         <link rel="stylesheet" type="text/css" href="attributes/css/nav.css">
         <link rel="stylesheet" href="attributes/css/swiper.min.css">
-    <title>BATCH!</title>
-   
+    <title>STUDENTS NOTES</title>
+    
   </head>
   <body>
 
@@ -30,31 +31,89 @@
 <div class="container" style="min-height:400px;">
    <div class="row" style="top:20px;position: relative;"> 
       <div class="col-2">
-                    <div class="container">
-                    <div class="dropdown">
-                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Tutorials
-                    <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
-                    <li><a tabindex="-1" href="#">HTML</a></li>
-                    <li><a tabindex="-1" href="#">CSS</a></li>
-                    <li class="dropdown-submenu">
-                        <a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                        <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
-                        <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
-                        <li class="dropdown-submenu">
-                            <a class="test" href="#">Another dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                            <li><a href="#">3rd level dropdown</a></li>
-                            <li><a href="#">3rd level dropdown</a></li>
-                            </ul>
-                        </li>
-                        </ul>
-                    </li>
-                    </ul>
-                </div>
-            </div>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle shadow-button" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false" style="min-width: 100px;">
+              CSE
+            </button>
+            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">Select a Sem
+                <li class="dropdown-divider"></li>
+                <!-- DROPDOWN list of 1st sem dept starts-->
+                <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">1st sem</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">CALCULUS</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">ENGINEERING PHYSICS</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">BASICS OF CIVIL ENGG</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">ENGG GRAPHICS</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">INTRODUCTION TO COM & PROBLEM SOLVING</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">SUSTAINABLE ENGG</a></li>
+                  </ul>
+                </li>
+                <!-- DROPDOWN List of 1st sem-->
 
+                <!-- DROPDOWN list of 2nd sem  starts-->
+                <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">2nd sem</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">DIFFERENTIAL EQUATION</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">ENGINEERING CHEMISTRY</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">ENGG MECHANICS</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">BASICS OF ELECTRONICS ENGG</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">COM PROGRAMMING</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">DESIGN ENGG</a></li>
+                  </ul>
+                </li>
+
+                <!-- DOWNLOAD list of 3rd sem ends-->
+                <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">3rd sem</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">LACA</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">DCS</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">DATA STRUCTURES</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">STLD</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">EDC</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">BUSINESS ECONOMICS</a></li>
+                  </ul>
+                </li>
+                <!-- DOWNLOAD list of 4th sem ends-->
+                <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">4th sem</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a class="dropdown-item" href="pages/pdtn.php">PDTN</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="pages/oopd.php">OOPD</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="pages/os.php">OPERATING SYSTEM</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="pages/pdbd.php">PDBD</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="pages/coa.php">COA</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">LIFE SKILL</a></li>
+                  </ul>
+                </li>
+                <!-- DOWNLOAD list of 5th sem ends-->
+                <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">5th sem</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">TOC</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">System softwares</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">Microprocesser</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">Data Communication</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">Graph Theory</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">Soft computing</a></li>
+                  </ul>
+                </li>
+                <!-- DOWNLOAD list of 6th sem ends-->
+                <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">6th sem</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">Algorithms</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">Compiler Design</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">Computer Networks</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">Software Engineering</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">Principles of Mgmnt</a></li>
+                    <li class="dropdown-item"><a class="dropdown-item" href="#">Mobile Computing</a></li>
+                  </ul>
+                </li>
+            </ul>
+        </div>
       </div>
       <div class="col-2">
         <div class="dropdown">
@@ -533,15 +592,7 @@
     <script src="attributes/js/jquery.scrollUp.min.js"></script>
 
     <script src="attributes/js/main.js"></script>
-    <script>
-$(document).ready(function(){
-  $('.dropdown-submenu a.test').on("click", function(e){
-    $(this).next('ul').toggle();
-    e.stopPropagation();
-    e.preventDefault();
-  });
-});
-</script>
+
     
   </body>
 </html>

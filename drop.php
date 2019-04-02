@@ -16,20 +16,14 @@
     <link rel="stylesheet" type="text/css" href="attributes/css/base.css">
     <link rel="stylesheet" type="text/css" href="attributes/css/styles.css">
     <link rel="stylesheet" type="text/css" href="attributes/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="attributes/css/nav.css">
+
 
     <title>COURSES!</title>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-4357714970955436",
-    enable_page_level_ads: true
-  });
-</script>
+    
   </head>
   <body>
   <?php include 'include/navbar.php'; ?>
-
-  <!-- <?php include 'include/nav.php';?> -->
 
 
     <div class="courses_01">
