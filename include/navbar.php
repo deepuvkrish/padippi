@@ -9,7 +9,7 @@
                     <li><a href="studentsnotes.php">Student's notes</a></li>
                     <li><a href="lecture.php" >Lecture's notes</a></li>
                     <li><a href="questionbank.php">question Bank</a></li>
-                    <li><a href="drop.php">About</a></li>
+                    <li><a href="drop.php">About Us</a></li>
                     <li><a href="contactus.php">Contact Us</a></li>
                 </ul>
             </nav>

@@ -133,7 +133,7 @@
                             <div class="about_content">
                                 <h2>Welcome to Padippi.com</h2>
                                 <h3>A perfect destination for suppli haters & OS lovers.!!</h3>
-                                <p>We here provide you all concepts and tutorial notes from scrath to core of almost every topic KTU has organised.</p>
+                                <p>We here provide you all concepts and tutorial notes from scratch to core of almost every topic KTU has organised.</p>
                                 <p>Handpicked question papers and most frequently asked questions are discussed in details with downloadable notes. So wait wait?? </p>
                                 <p>Take a tour with us..!!</p>
                                 <a  class="btn know_btn">know more</a>

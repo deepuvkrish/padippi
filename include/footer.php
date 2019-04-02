@@ -49,8 +49,8 @@
                         <div class="footer_item">
                             <h4>Contact us</h4>
                             <ul class="list-unstyled footer_contact">
-                                <li><a href=""><span class="fa"><i class="fas fa-map-marker-alt"></i></span> Techno_CLub,Jyothi Engineering College, Thrissure</a></li>
-                                <li><a href=""><span class="fa"><i class="far fa-envelope"></i></i></span>Techno_club.ac.in</a></li>
+                                <li><a href=""><span class="fa"><i class="fas fa-map-marker-alt"></i></span> TechnoCLub Solution<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Jyothi Engineering College,Thrissur</a></li>
+                                <li><a href=""><span class="fa"><i class="far fa-envelope"></i></i></span>TechnoClubSolutions.ac.in</a></li>
                                 <li><a href=""><span class="fa"><i class="fas fa-phone-square"></i></span><p>+91 8075 3694 61 <br>+91 9947 918 011</p></a></li>
                             </ul>
                         </div>
@@ -63,7 +63,7 @@
                 <p class="wow fadeInRight">
                 <i class="far fa-copyright"></i>
                     Copyright 2018. All Rights Reserved. | Developed &amp; Maintained by the Interns of 
-                    <a target="_blank" href="kong.html">Techno_Club Solutions</a> 
+                    <a target="_blank" href="kong.html">TechnoClub Solutions</a> 
                     2019. All Rights Reserved
                 </p>
             </div><!-- Footer bottom end -->
