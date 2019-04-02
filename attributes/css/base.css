@@ -1,0 +1,188 @@
+/* .hw{
+    background-image: url('http://iamdesigning.com/wp-content/uploads/2011/07/kv.jpg');
+} */
+
+/* body{
+    background-image: url("../img/nvidia.jpg");
+} */
+
+.shadow-button{
+  box-shadow: 0 .9rem 1rem rgba(0,0,0,.5)!important;
+  border-radius: 20px;
+
+}
+
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: rgb(251, 0, 0);
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.element {
+    width: 100%;
+    height: 100%;
+    animation: pulse 15s infinite;
+  }
+  
+   @keyframes pulse {
+    0% {
+        background-color: #8b036e;
+    }
+    25% {
+        background-color: #6e6d6e;
+    }
+    50% {
+        background-color: #52032d;
+      }
+    75% {
+        background-color: #740315;
+      }
+    100% {
+        background-color: #77025e;
+    }
+  } 
+  
+
+
+  .linear-wipe {
+    text-align: center;
+    background: linear-gradient(to right, #FFF 20%, #FF0 40%, #FF0 60%, #FFF 80%);
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: shine 1s linear infinite;
+            animation: shine 1s linear infinite;
+  }
+  @-webkit-keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
+
+
+
+
+  @-webkit-keyframes animationgradienttitle {
+    0% {
+      background-position: 0 1600px;
+    }
+    100% {
+      background-position: 1600px 0;
+    }
+  }
+  @keyframes animationgradienttitle {
+    0% {
+      background-position: 0 1600px;
+    }
+    100% {
+      background-position: 1600px 0;
+    }
+  }
+  
+  
+  .c-article {
+    text-align: center;
+  }
+  
+  .c-article__header {
+    position: relative;
+  }
+  
+  .c-article__title {
+    font-size: 17px;
+    color: #fc3735;
+    background: -webkit-linear-gradient(left, rgb(250, 193, 4), #10DDC2, #F57170);
+    background-size: 1600px 200px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-name: animationgradienttitle;
+            animation-name: animationgradienttitle;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  
+  .u-font-lora {
+    font-family: 'Lora', serif;
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+
+
+  .bd-example{
+        max-width: 1000px;
+        justify-content: center;
+        left: 14%;
+        position: relative;
+    
+  }
+
+  .courses_01{
+    padding-bottom: 40px;
+  }
+
+  .row_09 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    text-align: justify;
+}
